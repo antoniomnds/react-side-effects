@@ -14,7 +14,7 @@ export default function Modal({open, onClose, children }) {
 
   return createPortal(
     <dialog className="modal" ref={dialog} onClose={onClose}>
-      {children}
+      {open && children}
     </dialog>,
     document.getElementById('modal')
   );

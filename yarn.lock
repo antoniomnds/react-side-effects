@@ -1103,25 +1103,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"effects-basics@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "effects-basics@workspace:."
-  dependencies:
-    "@eslint/js": "npm:^9.15.0"
-    "@types/react": "npm:^18.2.15"
-    "@types/react-dom": "npm:^18.2.7"
-    "@vitejs/plugin-react": "npm:^4.0.3"
-    eslint: "npm:^9.15.0"
-    eslint-plugin-react: "npm:^7.37.2"
-    eslint-plugin-react-hooks: "npm:^4.6.0"
-    eslint-plugin-react-refresh: "npm:^0.4.3"
-    globals: "npm:^15.12.0"
-    react: "npm:^18.2.0"
-    react-dom: "npm:^18.2.0"
-    vite: "npm:^4.4.5"
-  languageName: unknown
-  linkType: soft
-
 "electron-to-chromium@npm:^1.5.41":
   version: 1.5.67
   resolution: "electron-to-chromium@npm:1.5.67"
@@ -2797,6 +2778,25 @@ __metadata:
   checksum: 10c0/875b72ef56b147a131e33f2abd6ec059d1989854b3ff438898e4f9310bfcc73acff709445b7ba843318a953cb9424bcc2c05af2b3d80011cee28f25aef3e2ebb
   languageName: node
   linkType: hard
+
+"react-side-effects@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "react-side-effects@workspace:."
+  dependencies:
+    "@eslint/js": "npm:^9.15.0"
+    "@types/react": "npm:^18.2.15"
+    "@types/react-dom": "npm:^18.2.7"
+    "@vitejs/plugin-react": "npm:^4.0.3"
+    eslint: "npm:^9.15.0"
+    eslint-plugin-react: "npm:^7.37.2"
+    eslint-plugin-react-hooks: "npm:^4.6.0"
+    eslint-plugin-react-refresh: "npm:^0.4.3"
+    globals: "npm:^15.12.0"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    vite: "npm:^4.4.5"
+  languageName: unknown
+  linkType: soft
 
 "react@npm:^18.2.0":
   version: 18.3.1
